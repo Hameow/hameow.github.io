@@ -64,7 +64,7 @@ html, body, figure {
   display: inline-block;
   padding-left: 0;
   padding-top: 1em;
-  margin: 1em;
+  margin: 1em 1em 0.5em 1em;
 }
 
 .top-menu {
@@ -130,6 +130,13 @@ nav a:hover {
   font-size: 1.2em;
 }
 
+#home span {
+  display: block;
+  font-family: Ubuntu;
+  font-size: 1.2em;
+  
+}
+
 /* Home Titles Style */
 
 #sub-title {
@@ -139,7 +146,7 @@ nav a:hover {
 }
 
 .lines {
-  margin-top: 0;
+  margin-top: 0.5em;
   margin-bottom: 0.5em;
   text-align: center;
   overflow: hidden;
@@ -630,8 +637,6 @@ button {
   border-color: #739e77;
 }
 
-
-
 /* PARSLEY */
 
 input.parsley-success,
@@ -700,6 +705,10 @@ nav ul {
   font-size: 1.2em;
 }
 
+#home span {
+  font-size: 1.2em;
+}
+
 #notice {
   width: 16.5em;
 }
@@ -754,6 +763,10 @@ nav ul {
 }
 
 #home p {
+  font-size: 1.2em;
+}
+
+#home span {
   font-size: 1.2em;
 }
 
@@ -823,6 +836,10 @@ nav ul {
   font-size: 1.5em;
 }
 
+#home span {
+  font-size: 1.5em;
+}
+
 #notice {
   width: 23.5em;
 }
@@ -866,7 +883,7 @@ nav a {
   margin-right: 2em;
 }
 
-  #contact-form {
+#contact-form {
   display: inline-block;
   width: 40%;
   margin-left: 4em;
@@ -902,6 +919,10 @@ nav ul {
 }
 
 #home p {
+  font-size: 2em;
+}
+
+#home span {
   font-size: 2em;
 }
 

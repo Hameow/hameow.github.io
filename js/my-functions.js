@@ -67,12 +67,3 @@ function postToGoogle() {
 $(document).ready(function() {
 	$("#contact-form").parsley();
 });
-
-
-$(function () 
-{ Parsley.on('form:submit', function() {
-    alert("The form would be submitted at this point. " +
-      "For this demo, we interrupt the processing.");
-    return false; // Don't submit for this demo
-  });
-});
