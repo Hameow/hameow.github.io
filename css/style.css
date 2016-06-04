@@ -51,11 +51,15 @@
     width: 90%;
 }
 
-/* -- CSS Reset -- */
+/* -- CSS Reset and All h2 -- */
 
 html, body, figure {
   padding: 0;
   margin: 0;
+}
+
+h2 {
+  font-family: Montserrat;
 }
 
 /* -- HEADER -- */
@@ -217,7 +221,6 @@ nav a:hover {
 .skill-sets h2 {
   margin-top: 0;
   text-align: center;
-  font-family:Bitter;
   font-size: 3.5em;
   font-weight: 100;
   color: #2c3e50;
@@ -307,13 +310,11 @@ nav a:hover {
 #about h2 {
   margin-top: 0;
   text-align: center;
-  font-family:Montserrat;
   font-size: 2.5em;
   font-weight: 100;
   color: #2c3e50;
   padding-top: 1em;
   text-transform:uppercase;
-  /*letter-spacing: 0.1em;*/
   font-weight: 600;
   
 }
@@ -355,7 +356,6 @@ nav a:hover {
   text-align: center;
   font-size: 3em;
   color: #fff;
-  font-family: Montserrat;
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -478,18 +478,34 @@ label span {
   font-size: 2.5em;
   text-align: center;
   text-transform: uppercase;
+  color: #2c3e50;
 }
 
-#work p {
-  margin-top: 3em;
+#work h3 {
   font-size: 1.5em;
-  text-align: center;
+  color: #2c3e50;
 }
+
+
 
 /* Projects Image */
 
-#image-container {
+#project-container {
   display: block;
+  text-align: center;
+}
+
+.project {
+  display: inline-block;
+  margin: 0.5em;
+  vertical-align: top;
+}
+
+.project p {
+  text-align: left;
+  margin-top: 0.5em;
+  font-size: 1em;
+  font-family: "Open Sans";
 }
 
 .image {
@@ -620,11 +636,11 @@ button {
   color: #5c5c5c;
 }
 
-.project {
+.project-button {
   margin-top: 3em;
 }
 
-.project:hover {
+.project-button:hover {
   border-color: #739e77;
 }
 
@@ -748,6 +764,10 @@ nav ul {
     width: 24.5em;
     margin: 0 auto;
     display: block;
+}
+
+.project {
+  width: 24.5em;
 }
 
 nav ul {
@@ -904,6 +924,10 @@ nav a {
     width: 27.5em;
     margin: 0 auto;
     display: block;
+}
+
+.project {
+  width: 27.5em;
 }
 
 nav ul {
