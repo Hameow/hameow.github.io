@@ -1,5 +1,5 @@
 /* Fonts */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans|Montserrat|Ubuntu|Bitter);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Montserrat|Bitter|Bitter);
 
 /* Sidemenu */
 .navigation {
@@ -130,13 +130,13 @@ nav a:hover {
 }
 
 #home p {
-  font-family: Ubuntu;
+  font-family: Bitter;
   font-size: 1.2em;
 }
 
 #home span {
   display: block;
-  font-family: Ubuntu;
+  font-family: Bitter;
   font-size: 1.2em;
   
 }
@@ -293,10 +293,10 @@ nav a:hover {
 /* About Section */
 
 #my-photo {
-  display: inline;
-  align: left;
-  width: 20em;
-  margin-left: 1em;
+  display: inline; 
+  align: left; 
+  width: 20em; 
+  margin-left: 1em; 
   border-radius: 50%;
 }
 
@@ -558,7 +558,7 @@ footer p {
 }
 
 .footer-header {
-  font-family: Ubuntu;
+  font-family: Bitter;
   font-size: 1.2em;
   color: #fff;
 }
@@ -943,11 +943,11 @@ nav ul {
 }
 
 #home p {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 #home span {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 .skill-sets li {
